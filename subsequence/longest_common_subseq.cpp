@@ -12,7 +12,6 @@ int lcs(string x, string y, int m, int n)
     {
         return max(lcs(x,y,m-1,n),lcs(x,y,m,n-1));
     }
-    
 }
 
 int main()
